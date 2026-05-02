@@ -25,7 +25,8 @@
   "files": [
     "pkg/heic2jpgwasm_bg.wasm",
     "pkg/heic2jpgwasm.js",
-    "pkg/heic2jpgwasm.d.ts"
+    "pkg/heic2jpgwasm.d.ts",
+    "LICENSE"
   ],
   "devDependencies": {
     "wasm-pack": "^0.14.0"
