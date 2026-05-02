@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 description = "HEIC to JPG/PNG converter using Rust and WebAssembly"
 license = "MIT"
-repository = "https://github.com/yourusername/heic2jpgwasm"
+repository = "https://github.com/ciptacode/heic2jpg"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
