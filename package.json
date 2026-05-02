@@ -1,0 +1,33 @@
+{
+  "name": "heic2jpgwasm",
+  "version": "1.0.0",
+  "description": "HEIC to JPG/PNG converter using Rust and WebAssembly",
+  "main": "pkg/heic2jpgwasm.js",
+  "module": "pkg/heic2jpgwasm.js",
+  "types": "pkg/heic2jpgwasm.d.ts",
+  "scripts": {
+    "build": "wasm-pack build --target web",
+    "build:bundler": "wasm-pack build --target bundler",
+    "test": "cargo test"
+  },
+  "keywords": [
+    "heic",
+    "heif",
+    "jpg",
+    "png",
+    "wasm",
+    "webassembly",
+    "rust",
+    "react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "pkg/heic2jpgwasm_bg.wasm",
+    "pkg/heic2jpgwasm.js",
+    "pkg/heic2jpgwasm.d.ts"
+  ],
+  "devDependencies": {
+    "wasm-pack": "^0.14.0"
+  }
+}
