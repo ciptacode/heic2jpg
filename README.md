@@ -1,11 +1,11 @@
-# @ciptacode/heic2jpgwasm
+# @ciptacode/heic2jpg
 
 HEIC to JPG/PNG converter using Rust and WebAssembly.
 
 ## Installation
 
 ```bash
-npm install @ciptacode/heic2jpgwasm
+npm install @ciptacode/heic2jpg
 ```
 
 ## Usage in React (Vite)
@@ -22,7 +22,7 @@ npm run build
 
 ```tsx
 import React, { useState } from 'react';
-import init, { convert_heic_to_jpg } from '@ciptacode/heic2jpgwasm';
+import init, { convert_heic_to_jpg } from '@ciptacode/heic2jpg';
 
 function App() {
   const [resultImage, setResultImage] = useState<string | null>(null);

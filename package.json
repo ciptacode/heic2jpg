@@ -1,10 +1,10 @@
 {
-  "name": "@ciptacode/heic2jpgwasm",
+  "name": "@ciptacode/heic2jpg",
   "version": "1.0.0",
   "description": "HEIC to JPG/PNG converter using Rust and WebAssembly",
-  "main": "pkg/heic2jpgwasm.js",
-  "module": "pkg/heic2jpgwasm.js",
-  "types": "pkg/heic2jpgwasm.d.ts",
+  "main": "pkg/heic2jpg.js",
+  "module": "pkg/heic2jpg.js",
+  "types": "pkg/heic2jpg.d.ts",
   "scripts": {
     "build": "wasm-pack build --target web",
     "build:bundler": "wasm-pack build --target bundler",
@@ -23,9 +23,9 @@
   "author": "",
   "license": "MIT",
   "files": [
-    "pkg/heic2jpgwasm_bg.wasm",
-    "pkg/heic2jpgwasm.js",
-    "pkg/heic2jpgwasm.d.ts",
+    "pkg/heic2jpg_bg.wasm",
+    "pkg/heic2jpg.js",
+    "pkg/heic2jpg.d.ts",
     "LICENSE"
   ],
   "devDependencies": {
