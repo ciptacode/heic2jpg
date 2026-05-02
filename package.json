@@ -1,5 +1,5 @@
 {
-  "name": "heic2jpgwasm",
+  "name": "@ciptacode/heic2jpgwasm",
   "version": "1.0.0",
   "description": "HEIC to JPG/PNG converter using Rust and WebAssembly",
   "main": "pkg/heic2jpgwasm.js",
