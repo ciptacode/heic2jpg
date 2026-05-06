@@ -1,6 +1,6 @@
 {
   "name": "@ciptacode/heic2jpg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HEIC to JPG/PNG converter using Rust and WebAssembly",
   "main": "pkg/heic2jpg.js",
   "module": "pkg/heic2jpg.js",
