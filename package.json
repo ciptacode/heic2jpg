@@ -22,6 +22,14 @@
   ],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciptacode/heic2jpg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ciptacode/heic2jpg/issues"
+  },
+  "homepage": "https://github.com/ciptacode/heic2jpg#readme",
   "files": [
     "pkg/heic2jpg_bg.wasm",
     "pkg/heic2jpg.js",
